@@ -27,9 +27,7 @@
         android:orientation="horizontal"
         android:layout_marginTop="10dp"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-
-        >
+        android:layout_centerHorizontal="true">
         <Button
             android:id="@+id/btnReport"
             android:layout_width="110dp"
