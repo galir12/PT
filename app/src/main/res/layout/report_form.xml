@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:textDirection="rtl">
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="טופס דיווח"
+        android:textAlignment="center"
+        android:textColor="#042571"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/fullName"
+        style="@style/venus"
+        android:hint="שם מלא" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        style="@style/venus"
+        android:hint="אימייל" />
+    <!--
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fullName"
+            android:textDirection="rtl"
+            android:textSize="15sp"
+            android:text="שם מלא"
+            android:textStyle="bold"
+            android:textColor="#032774" />
+
+        <EditText
+            style="@style/venus"
+            android:hint="שם מלא" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="rtl">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:textDirection="rtl"
+            android:textSize="15sp"
+            android:text="אימייל"
+            android:textStyle="bold"
+            android:textColor="#032774" />
+
+        <EditText
+            style="@style/venus"
+            android:hint="אימייל"
+            />
+
+
+    </LinearLayout>
+    -->
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layoutDirection="rtl">
+
+         <TextView
+             android:layout_margin="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/phone"
+             android:textDirection="rtl"
+             android:textSize="15sp"
+             android:text="טלפון"
+             android:textStyle="bold"
+             android:textColor="#032774" />
+ -->
+    <EditText
+        android:id="@+id/txtPhone"
+        style="@style/venus"
+        android:hint="טלפון" />
+
+    <EditText
+        android:id="@+id/txtPlaceOfCrime"
+        style="@style/venus"
+        android:hint="המקום בו בוצעה העבירה" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/venus" />
+
+    <EditText
+        android:id="@+id/crimeDescription"
+        style="@style/venus"
+        android:inputType="textMultiLine"
+        android:hint="תיאור העבירה"
+        android:lines="10"
+        android:maxLines="10"
+        android:minLines="2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnAddFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="צרף קובץ"
+            android:layout_margin="5dp"
+            android:textColor="#032774" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content"
+            android:text="שליחה"
+            android:textColor="#032774"
+            android:layout_margin="5dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

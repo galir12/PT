@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+    tools:context="com.ptroaapp.gali.ptroaapp.SplashScreenActivity">
+
+
+
+    <ImageView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:layout_gravity=""
+        android:src="@drawable/splash"
+         />
+
+
+
+</FrameLayout>

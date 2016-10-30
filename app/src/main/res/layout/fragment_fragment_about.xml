@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fbfbfc"
+    tools:context="com.ptroaapp.gali.ptroaapp.Fragments.FragmentAbout">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="אודות ארגון פטרואה"
+        android:textColor="#042571"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="30dp"
+        android:textColor="#3359b3"
+        android:text="@string/fragment_about"
+        android:textSize="17sp"
+
+        android:id="@+id/aboutText"/>
+
+
+
+
+</FrameLayout>
+

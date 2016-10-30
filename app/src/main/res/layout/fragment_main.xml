@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MainFragment"
+    android:background="#000000"
+    android:clickable="true"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtWellcom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ברוכים הבאים לפטרואה"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#f8f8fc" />
+
+
+
+    <LinearLayout
+        android:id="@+id/firstLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+        >
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="דווחו לנו"
+            android:textDirection="rtl"
+            android:textSize="20sp"
+            android:background="#64f2c3"
+            android:layout_marginRight="8dp"
+
+            />
+
+        <Button
+            android:id="@+id/btnLaw"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="חוק צער בע"
+            android:textDirection="rtl"
+            android:textSize="20sp"
+            android:background="#ef1228"
+
+            />
+
+
+
+
+         </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/firstLine">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/ptTv"
+            android:textSize="20sp"
+            android:text="PTROA TV"
+            android:layout_marginRight="8dp"
+            android:background="#2daff5"/>
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:text="אודות פטרואה"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:background="#c991f7" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

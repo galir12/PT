@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/shape_style"
+            android:title="ראשי" />
+    <!--    <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/shape_style"
+            android:title="אודות ארגון פטרואה"
+            />
+            -->
+        <item
+            android:id="@+id/nav_legal_clarification"
+            android:icon="@drawable/shape_style"
+            android:title="הבהרה משפטית"
+            />
+        <item
+            android:id="@+id/nav_term_of_use"
+            android:icon="@drawable/shape_style"
+            android:title="תנאי שימוש"
+            />
+
+        <item
+            android:id="@+id/nav_data_usage"
+            android:icon="@drawable/shape_style"
+            android:title="שימוש בתוכן"
+            />
+    </group>
+
+     <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="2dp"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_centerVertical="true"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_style"
+        />
+
+    <ImageView
+        android:id="@+id/btn2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:scaleX="-1"
+        android:src="@drawable/path_item"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layoutDirection="rtl"
+        android:layout_toLeftOf="@id/btn1"
+        android:layout_toRightOf="@id/btn2"
+        android:id="@+id/linearLayoutResult">
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bigTitle"
+            android:layout_alignParentTop="true"
+            android:textSize="18sp"
+            android:text="הגנה על בעלי חיים"
+            android:textStyle="bold"
+            android:textColor="#032774"
+            />
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/smallTitle"
+            android:textColor="#032774"
+            android:text="חוק צער בעלי חיים התשנד 1994"
+            android:textSize="10sp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
